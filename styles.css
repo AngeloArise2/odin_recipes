@@ -11,6 +11,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .title {
@@ -42,4 +43,65 @@ body {
 
 .recipe-list a:hover {
     color: #2980b9;
+}
+
+.recipe-title {
+    font-size: 2em;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recipe-image {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-description {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #3498db;
+}
+
+.recipe-description h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.recipe-ingredients, .recipe-steps {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+}
+
+.recipe-ingredients h3, .recipe-steps h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.recipe-ingredients ul, .recipe-steps ol {
+    padding-left: 20px;
+}
+
+.recipe-ingredients li, .recipe-steps li {
+    margin-bottom: 5px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    background-color: #2980b9;
 }
